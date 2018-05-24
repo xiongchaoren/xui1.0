@@ -1,0 +1,21 @@
+/* pages/index.wxss */
+
+.page{
+  height: 100%;
+  padding: 20px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.transform-area{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border: 1px solid red;
+  margin: 230px auto 0;
+  transition: all 0.2s linear;
+}
+.transform-area image {
+  width: 100%;
+}

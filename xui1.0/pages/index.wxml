@@ -1,0 +1,9 @@
+<!--pages/index.wxml-->
+<view class='page' bindtouchmove="tapMove">
+    <block>
+        <view class='transform-area' style="transform:scale({{scale}})">
+            <image mode='widthFix' src="https://res.eqianxian.com/wx_static/center/images/logo.png"></image>
+        </view>
+    </block>
+</view>
+

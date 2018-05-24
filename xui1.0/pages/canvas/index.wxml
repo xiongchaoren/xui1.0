@@ -1,0 +1,11 @@
+<canvas class='canvas' canvas-id="myCanvas" bindtouchstart="start" bindtouchmove="move" bindtouchend="end" />
+<view>
+  Coordinates: ({{x}}, {{y}})
+</view>
+<button class='btn' bindtap='educe'>导出</button>
+<button class='btn' bindtap='getImgData'>获取图像数据</button>
+<button class='btn' bindtap='putImgData'>输出图像数据</button>
+<button class='btn' bindtap='clip'>裁切</button>
+
+<canvas class='canvas' canvas-id="myCanvas2"  />
+<canvas class='canvas' canvas-id="myCanvas3"  />

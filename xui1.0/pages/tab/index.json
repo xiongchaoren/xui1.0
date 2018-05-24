@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选项卡",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar"
+  }
+}

@@ -1,0 +1,35 @@
+/* pages/panel/index.wxss */
+.x-panel{
+  position:relative;
+  background:#fff;
+  margin-top:10px;
+  overflow:hidden;
+  color: #000;
+}
+.x-panel:after{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:200%;
+  height:200%;
+  transform:scale(.5);
+  transform-origin:0 0;
+  pointer-events:none;
+  box-sizing:border-box;
+  border:0 solid #d9d9d9;
+  border-top-width:2px;
+  border-bottom-width:2px;
+}
+.x-panel-title{
+  font-size:14px;
+  line-height:1;
+  color:#999;
+  padding:20px 15px 0 15px;
+}
+.x-panel__no-margin-top{
+  margin-top:0;
+}
+.x-panel__border:after{
+  border:0 none;
+}

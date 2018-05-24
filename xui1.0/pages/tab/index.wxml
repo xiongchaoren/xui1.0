@@ -1,0 +1,4 @@
+<!--pages/tab/index.wxml-->
+<navbar tempname="test" tabs="{{tabs}}"  content="{{ts}}" bindcustomevent="pageEventListener1">
+     
+</navbar>

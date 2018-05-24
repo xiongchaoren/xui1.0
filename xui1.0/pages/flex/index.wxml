@@ -1,0 +1,23 @@
+<!--pages/flex/index.wxml-->
+<view class='page'>
+
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-title'>flex布局</view>
+            <view class='page__bd-groups'>
+                <view class='x-flex'>
+                    <view class='x-flex__item'>
+                        <view class='item'>item</view>
+                    </view>
+                    <view class='x-flex__item'>
+                        <view class='item'>item</view>
+                    </view>
+                    <view class='x-flex__item'>
+                        <view class='item'>item</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+</view>

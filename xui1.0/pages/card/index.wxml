@@ -1,0 +1,65 @@
+<!--pages/card/index.wxml-->
+<view class='page'>
+    <view class='page__bd'>
+
+        <view class='page__bd-title'>卡片 card</view>
+
+        <view class='x-panel x-panel_access'>
+            <view class='x-panel__hd'>图文组合列表</view>
+            <view class='x-panel__bd'>
+                <view class='x-media-box x-media-box_appmsg'>
+                    <view class='x-media-box__hd x-media-box__hd_in-appmsg'>
+                        <image class='x-media-box__thumb' src='/images/1.png'></image>
+                    </view>
+                    <view class='x-media-box__bd x-media-box__bd_in-appmsg x-media-box__bd-article'>
+                        <view class='x-media-box__title'>文章类型-标题</view>
+                        <view class='x-media-box__desc'>描述描述描述描述描述描述描述描述描述描述描述描述</view>
+                    </view>
+                </view>
+                <view class='x-media-box x-media-box_appmsg'>
+                    <view class='x-media-box__hd x-media-box__hd_in-appmsg'>
+                        <image class='x-media-box__thumb' src='/images/1.png'></image>
+                    </view>
+                    <view class='x-media-box__bd x-media-box__bd_in-appmsg x-media-box__bd-detail'>
+                        <view class='x-media-box__bd-detail__hd'>
+                            <view class='x-flex'>
+                                <view class='x-media-box__title x-flex__item'>商品名</view>
+                                <view class='x-flex__item x-flex__item-right'>￥666</view>
+                            </view>
+                            <view class='x-media-box__desc'>商品名描述</view>
+                        </view>
+                        <view class='x-media-box__bd-detail__bd'>时间：2018.5.17</view>
+                    </view>
+                </view>
+                <view class='x-media-box x-media-box_appmsg'>
+                    <view class='x-media-box__hd x-media-box__hd_in-appmsg'>
+                        <image class='x-media-box__thumb' src='/images/1.png'></image>
+                    </view>
+                    <view class='x-media-box__bd x-media-box__bd_in-appmsg x-media-box__bd-detail'>
+                        <view class='x-media-box__bd-detail__hd'>
+                            <view class='x-flex'>
+                                <view class='x-media-box__title x-flex__item'>商品名</view>
+                                <view class='x-flex__item x-flex__item-right'>￥666</view>
+                            </view>
+                            <view class='x-flex'>
+                                <view class='x-media-box__desc x-flex__item'>商品描述</view>
+                                <view class='x-flex__item x-flex__item-right'>×2</view>
+                            </view>
+                        </view>
+                        <view class='x-media-box__bd-detail__bd'>时间：2018.5.17</view>
+                    </view>
+                </view>
+            </view>
+            <view class='x-panel__ft'>
+                <view class='x-cell x-cell_link'>
+                    <view class='x-cell__bd'>查看更多</view>
+                    <view class='x-cell__ft x-cell__ft_in-access'>尾部</view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+</view>
+
+

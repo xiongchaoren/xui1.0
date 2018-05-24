@@ -1,0 +1,21 @@
+/* pages/select/index.wxss */
+.x-check__label{
+  position: relative;
+}
+.x-check{
+  position: absolute;
+  left: -99999px;
+}
+.x-cells{
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+

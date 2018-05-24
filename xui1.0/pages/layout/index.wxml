@@ -1,0 +1,28 @@
+<!--pages/layout/index.wxml-->
+<view class='page'>
+
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-title'>layout布局</view>
+            <view class='page__bd-groups'>
+                <view class='x-row'>
+                    <view class='x-col x-col-8'>8</view>
+                    <view class='x-col x-col-8'>8</view>
+                    <view class='x-col x-col-8'>8</view>
+                </view>
+            </view>
+        </view>
+        <view>
+            <view class='page__bd-title'>layout布局-偏移offset</view>
+            <view class='page__bd-groups'>
+                <view class='x-row'>
+                    <view class='x-col x-col-5 x-col-offset-3'>5</view>
+                    <view class='x-col x-col-5'>5</view>
+                    <view class='x-col x-col-5'>5</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+</view>
+

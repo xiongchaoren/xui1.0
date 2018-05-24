@@ -1,0 +1,22 @@
+<!--pages/badge/index.wxml-->
+<view class='page'>
+
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-title'>徽章</view>
+            <view class='page__bd-groups'>
+                <text>当前数: </text>
+                <view class='x-badge'>1</view>
+            </view>
+        </view>
+        <view>
+            <view class='page__bd-title'>绝对定位徽章</view>
+            <view class='page__bd-groups'>
+                <view class='box'>
+                    <view class='x-badge x-badge__position'>1</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+</view>

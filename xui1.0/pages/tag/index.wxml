@@ -1,0 +1,24 @@
+<!--pages/tag/index.wxml-->
+<view class='page'>
+
+    <view class='page__bd-title'>标记 tag</view>
+
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-title'>默认</view>
+            <view class='page__bd-groups'>
+
+                <view class='x-panel x-panel__border'>
+                    <view class='x-tag'>灰色</view>
+                    <view class='x-tag x-tag-danger'>红色</view>
+                    <view class='x-tag x-tag-disabled'>不可用</view>
+                </view>
+
+            </view>
+        </view>
+
+    </view>
+
+</view>
+
+

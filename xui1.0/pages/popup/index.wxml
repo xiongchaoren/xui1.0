@@ -1,0 +1,65 @@
+<!--pages/popup/index.wxml-->
+<view class='page'>
+
+    <view class='page__bd-title'>弹出层 popup</view>
+
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-groups'>
+
+                <button class="x-btn x-btn__border" bindtap="togglePopup">中间位置弹出popup</button>
+                <button class="x-btn x-btn__border" bindtap="toggleTopPopup">顶部位置弹出popup</button>
+                <button class="x-btn x-btn__border" bindtap="toggleBottomPopup">底部位置弹出popup</button>
+                <button class="x-btn x-btn__border" bindtap="toggleLeftPopup">左侧位置弹出popup</button>
+                <button class="x-btn x-btn__border" bindtap="toggleRightPopup">右侧位置弹出popup</button>
+
+            </view>
+        </view>
+
+    </view>
+
+
+    <!-- 中间位置,popup层 -->
+    <view class="x-popup {{ showPopup ? 'x-popup-show' : ''}}">
+        <view class='x-popup__mask' bindtap="togglePopup"></view>
+        <view class='x-popup__container'>
+            <view class="x-btns">
+              <button class="x-btn" bindtap="togglePopup">
+                关闭 popup
+              </button>
+            </view>
+        </view>
+    </view>
+    <!-- 顶部位置,popup层 -->
+    <view class="x-popup {{ showTopPopup ? 'x-popup-show' : ''}} x-popup-top">
+        <view class='x-popup__mask' bindtap="toggleTopPopup"></view>
+        <view class='x-popup__container'>
+            <view>顶部位置 popup</view>
+        </view>
+    </view>
+    <!-- 底部位置,popup层 -->
+    <view class="x-popup {{ showBottomPopup ? 'x-popup-show' : ''}} x-popup-bottom">
+        <view class='x-popup__mask' bindtap="toggleBottomPopup"></view>
+        <view class='x-popup__container'>
+            <view>底部位置 popup</view>
+        </view>
+    </view>
+    <!-- 左侧位置,popup层 -->
+    <view class="x-popup {{ showLeftPopup ? 'x-popup-show' : ''}} x-popup-left">
+        <view class='x-popup__mask' bindtap="toggleLeftPopup"></view>
+        <view class='x-popup__container'>
+            <view>左侧位置 popup</view>
+        </view>
+    </view>
+    <!-- 右侧位置,popup层 -->
+    <view class="x-popup {{ showRightPopup ? 'x-popup-show' : ''}} x-popup-right">
+        <view class='x-popup__mask' bindtap="toggleRightPopup"></view>
+        <view class='x-popup__container'>
+            <view>右侧位置 popup</view>
+        </view>
+    </view>
+
+</view>
+
+
+

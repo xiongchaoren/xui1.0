@@ -1,0 +1,41 @@
+<!--pages/panel/index.wxml-->
+<view class='page'>
+<!-- x-panel__no-border -->
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-title'>panel面板</view>
+            <view class='page__bd-groups'>
+                <view class='x-panel'>
+                    <view>panel内容</view>
+                </view>
+            </view>
+        </view>
+        <view>
+            <view class='page__bd-title'>panel面板-无边框</view>
+            <view class='page__bd-groups'>
+                <view class='x-panel x-panel__border'>
+                    <view>panel内容</view>
+                </view>
+            </view>
+        </view>
+        <view>
+            <view class='page__bd-title'>panel面板-无边框-无上边距</view>
+            <view class='page__bd-groups'>
+                <view class='x-panel x-panel__border x-panel__no-margin-top'>
+                    <view>panel内容</view>
+                </view>
+            </view>
+        </view>
+        <view>
+            <view class='page__bd-title'>panel面板-无边框-无上边距</view>
+            <view class='page__bd-groups'>
+                <view class='x-panel-title'>panel标题</view>
+                <view class='x-panel x-panel__border x-panel__no-margin-top'>
+                    <view>panel内容</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+</view>
+

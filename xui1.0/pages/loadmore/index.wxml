@@ -1,0 +1,23 @@
+<!--pages/loadmore/index.wxml-->
+<view class='page'>
+    <view class='page__bd'>
+
+        <view class='page__bd-title'>卡片 card</view>
+
+        <view class='x-loadmore'>
+            <view class='x-loading'></view>
+            <view class='x-loadmore__tips'>正在加载</view>
+        </view>
+        <view class="x-loadmore x-loadmore_line">
+            <view class="x-loadmore__tips x-loadmore__tips_in-line">暂无数据</view>
+        </view>
+        <view class="x-loadmore x-loadmore_line x-loadmore_dot">
+            <view class="x-loadmore__tips x-loadmore__tips_in-line x-loadmore__tips_in-dot"></view>
+        </view>
+
+    </view>
+
+</view>
+
+
+

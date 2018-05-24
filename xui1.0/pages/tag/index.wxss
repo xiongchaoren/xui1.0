@@ -1,0 +1,24 @@
+/* pages/tag/index.wxss */
+.x-tag + .x-tag {
+  margin-left: 10px;
+}
+.x-tag{
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  line-height: 1;
+  padding: 2px 5px;
+  border-radius: 2px;
+  font-size: 11px;
+  background-color: #c9c9c9;
+  text-align: center;
+  color: #fff;
+}
+.x-tag-danger{
+  color:#fff;
+  background:#f44;
+}
+.x-tag-disabled{
+  color:#999;
+  background:#e5e5e5
+}

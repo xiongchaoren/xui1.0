@@ -1,0 +1,23 @@
+<!--pages/toast/index.wxml-->
+
+<view>
+    <button class='x-btn x-btn-border' bindtap='showToast'>只显示文字</button>
+    <button class='x-btn x-btn-border' bindtap='showImgToast'>显示文字自定义图片</button>
+    <button class='x-btn x-btn-border' bindtap='showIconToast'>显示文字图标Loading</button>
+    <button class='x-btn x-btn-border' bindtap='showFontIconToast'>显示文字字体图标</button>
+</view>
+
+<block wx:if="{{toast.show}}">
+<view class='x-toast-mask'></view>
+<view class='x-toast'>
+    <block wx:if="{{toast.icon || toast.image}}">
+        <view wx:if="{{toast.image}}" class='x-toast__icon x-toast__icon-image' style='{{toast.image}}'></view>
+        <view wx:elif="{{toast.icon == 'loading'}}" class='x-toast__icon x-toast__icon-loading'>
+            <view class='x-loading'></view>
+        </view>
+        <view wx:else class='x-toast__icon zan-icon zan-icon-{{toast.icon}}'></view>
+    </block>
+    
+    <view wx:if="{{toast.title}}">加载中...</view>
+</view>
+</block>

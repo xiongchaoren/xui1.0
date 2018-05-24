@@ -1,0 +1,49 @@
+<!--pages/switch/switch.wxml-->
+<view class='page'>
+
+    <view class='page__bd-title'>开关 switch</view>
+
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-title'>默认</view>
+            <view class='page__bd-groups'>
+
+                <view class='x-panel x-panel__border'>
+                    <view class='x-switch {{boolSwitch?"x-switch-off":"x-switch-on"}}' bindtap='switchHandle'>
+                        <view class='x-switch__circle'>
+                            
+                        </view>
+                        <view class='zan-switch__bg'></view>
+                    </view>
+                </view>
+
+            </view>
+        </view>
+
+        <view>
+            <view class='page__bd-title'>不可用开关</view>
+            <view class='page__bd-groups'>
+
+                <view class='x-panel x-panel__border'>
+                    <view class='x-switch x-switch-off x-switch-disabled'>
+                        <view class='x-switch__circle'>
+                            
+                        </view>
+                        <view class='zan-switch__bg'></view>
+                    </view>
+                </view>
+
+            </view>
+        </view>
+
+        <view>
+            <view class='page__bd-title'>异步开关</view>
+            <view class='page__bd-groups'>
+
+            </view>
+        </view>
+        
+    </view>
+
+</view>
+

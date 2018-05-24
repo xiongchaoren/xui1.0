@@ -1,0 +1,21 @@
+/* pages/topTips/index.wxss */
+.x-topTips{
+  position: fixed;
+  transform-origin: center;
+  transition: all .4s ease;
+  z-index: 61;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding:15px;
+  min-height:32px;
+  background-color:#e64340;
+  color:#fff;
+  font-size:16px;
+  transform: translate3d(0,-100%,0);
+  box-sizing: border-box;
+}
+
+.x-topTips-show.x-topTips{
+  transform:translate3d(0,0,0);
+}

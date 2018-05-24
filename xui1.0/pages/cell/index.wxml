@@ -1,0 +1,127 @@
+<!--pages/cell/index.wxml-->
+<view class='page'>
+    <view class='page__bd'>
+
+        <view>
+            <view class='page__bd-title'>cell 单元格</view>
+            <view class='page__bd-groups'>
+                <view class="x-panel">
+                    <!-- cell -->
+                    <view class='x-cells'>
+                        <view class='x-cell'>
+                            <view class='x-cell__bd'>主体</view>
+                            <view class='x-cell__ft'>尾部</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view>
+            <view class='page__bd-title'>cell 单元格-带头部</view>
+            <view class='page__bd-groups'>
+                <view class="x-panel">
+                    <!-- cell -->
+                    <view class='x-cells'>
+                        <view class='x-cell'>
+                            <view class='x-cell__hd'>头部 <view class='zan-icon zan-icon-checked'></view> </view>
+                            <view class='x-cell__bd'>主体</view>
+                            <view class='x-cell__ft'>尾部</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view>
+            <view class='page__bd-title'>cell 单元格-带跳转箭头</view>
+            <view class='page__bd-groups'>
+                <view class="x-panel">
+                    <!-- cell -->
+                    <view class='x-cells'>
+                        <view class='x-cell'>
+                            <view class='x-cell__hd'>头部 <view class='zan-icon zan-icon-checked'></view> </view>
+                            <view class='x-cell__bd'>主体</view>
+                            <view class='x-cell__ft x-cell__ft_in-access'>尾部</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view>
+            <view class='page__bd-title'>cell 单元格-带附加信息</view>
+            <view class='page__bd-groups'>
+                <view class="x-panel">
+                    <!-- cell -->
+                    <view class='x-cells'>
+                        <view class='x-cell'>
+                            <view class='x-cell__hd'>
+                                <view>top内容</view>
+                                <view>bottom内容</view>
+                            </view>
+                            <view class='x-cell__bd'>主体</view>
+                            <view class='x-cell__ft x-cell__ft_in-access'>尾部</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view>
+            <view class='page__bd-title'>cell 单元格-多列表</view>
+            <view class='page__bd-groups'>
+                <view class="x-panel">
+                    <!-- cell -->
+                    <view class='x-cells'>
+                        <view class='x-cell'>
+                            <view class='x-cell__hd'>
+                                <view>top内容</view>
+                                <view>bottom内容</view>
+                            </view>
+                            <view class='x-cell__bd'>主体</view>
+                            <view class='x-cell__ft x-cell__ft_in-access'>尾部</view>
+                        </view>
+                        <view class='x-cell'>
+                            <view class='x-cell__hd'>
+                                <view>top内容</view>
+                                <view>bottom内容</view>
+                            </view>
+                            <view class='x-cell__bd'>主体</view>
+                            <view class='x-cell__ft x-cell__ft_in-access'>尾部</view>
+                        </view>
+                        <view class='x-cell'>
+                            <view class='x-cell__hd'>
+                                <view>top内容</view>
+                                <view>bottom内容</view>
+                            </view>
+                            <view class='x-cell__bd'>主体</view>
+                            <view class='x-cell__ft x-cell__ft_in-access'>尾部</view>
+                        </view>
+                        <view class='x-cell'>
+                            <view class='x-cell__hd'>
+                                <view>top内容</view>
+                                <view>bottom内容</view>
+                            </view>
+                            <view class='x-cell__bd'>主体</view>
+                            <view class='x-cell__ft x-cell__ft_in-access'>尾部</view>
+                        </view>
+                        <view class='x-cell'>
+                            <view class='x-cell__hd'>
+                                <view>top内容</view>
+                                <view>bottom内容</view>
+                            </view>
+                            <view class='x-cell__bd'>主体</view>
+                            <view class='x-cell__ft x-cell__ft_in-access'>尾部</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+</view>
+
+
+

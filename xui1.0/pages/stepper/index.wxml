@@ -1,0 +1,33 @@
+<!--pages/stepper/index.wxml-->
+<view class='page'>
+
+    <view class='page__bd-title'>计数器 stepper</view>
+
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-title'>默认</view>
+            <view class='page__bd-groups'>
+
+                <view class='x-stepper'>
+                    <view class='x-stepper__item x-stepper__item-minus'>-</view>
+                    <input class='x-stepper__text' value='{{stepper1.stepper}}'></input>
+                    <view class='x-stepper__item x-stepper__item-plus'>+</view>
+                </view>
+
+            </view>
+        </view>
+        <view>
+            <view class='page__bd-title'>已达到最大值</view>
+            <view class='page__bd-groups'>
+
+                <view class='x-stepper'>
+                    <view class='x-stepper__item x-stepper__item-minus'>-</view>
+                    <input class='x-stepper__text' value='{{stepper1.stepper}}'></input>
+                    <view class='x-stepper__item x-stepper__item-plus x-stepper__disabled'>+</view>
+                </view>
+
+            </view>
+        </view>
+    </view>
+
+</view>

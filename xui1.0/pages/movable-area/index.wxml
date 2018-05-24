@@ -1,0 +1,11 @@
+<!--pages/movable-area/index.wxml-->
+<view class="section">
+
+  <movable-area class="area" scale-area="{{true}}">
+    <movable-view class='area-inner' direction="all" scale="{{true}}">
+        <image mode='widthFix' src='{{img}}'></image>
+    </movable-view>
+  </movable-area>
+  
+
+</view>

@@ -1,0 +1,25 @@
+<!--pages/topTips/index.wxml-->
+<view class='page'>
+
+    <view class='page__bd-title'>topTips 顶部提示</view>
+
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-title'>默认</view>
+            <view class='page__bd-groups'>
+
+                <view class='x-panel x-panel__border'>
+                    <view class='x-btn x-btn__border' bindtap='toggleTips'>显示顶部提示</view>
+                </view>
+
+            </view>
+        </view>
+        
+    </view>
+
+    <!-- 顶部提示 -->
+    <view class="x-topTips {{topTipsShow?'x-topTips-show':''}}">提示：这是一个顶部提示</view>
+
+</view>
+
+

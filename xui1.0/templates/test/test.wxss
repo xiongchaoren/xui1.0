@@ -1,0 +1,8 @@
+/* templates/test/test.wxss */
+.pull{
+  color: #fff;
+}
+.pull-item{
+  height: 100px;
+  border: 1px solid red;
+}

@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/button/index",
+    "pages/index",
+    "pages/canvas/index",
+    "pages/movable-area/index",
+    "pages/badge/index",
+    "pages/layout/index",
+    "pages/flex/index",
+    "pages/panel/index",
+    "pages/card/index",
+    "pages/cell/index",
+    "pages/loadmore/index",
+    "pages/capsule/index",
+    "pages/icon/index",
+    "pages/noticebar/index",
+    "pages/select/index",
+    "pages/stepper/index",
+    "pages/switch/index",
+    "pages/tab/index",
+    "pages/tag/index",
+    "pages/popup/index",
+    "pages/topTips/index",
+    "pages/toast/index",
+    "pages/dialog/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "XUI",
+    "navigationBarTextStyle": "black"
+  }
+}

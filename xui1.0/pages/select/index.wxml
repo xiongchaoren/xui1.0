@@ -1,0 +1,38 @@
+<!--pages/select/index.wxml-->
+<view class='page'>
+    <view class='page__bd'>
+
+        <view class='page__bd-title'>单选 select-radio</view>
+
+        <view class='x-cells'>
+            <radio-group bindchange="radioChange">
+                <label class='x-cell x-check__label' wx:for="{{radioItems}}" wx:key="value">
+                    <radio class="x-check" value="{{item.value}}" checked="{{item.checked}}"/>
+
+                    <view class='x-cell__bd'>单选项</view>
+                    <view class='x-cell__ft x-cell__ft_in-radio' wx:if="{{item.checked}}">
+                        <icon class="x-icon-radio" type="success_no_circle" size="12"></icon>
+                    </view>
+                </label>
+            </radio-group>
+        </view>
+
+        <view class='page__bd-title'>复选 select-checkbox</view>
+
+        <view class='x-cells'>
+            <checkbox-group bindchange="checkboxChange">
+                <label class='x-cell x-check__label' wx:for="{{checkboxItems}}" wx:key="value">
+                    <checkbox class="x-check" value="{{item.value}}" checked="{{item.checked}}"/>
+
+                    <view class='x-cell__bd'>复选项</view>
+                    <view class='x-cell__ft x-cell__ft_in-radio' wx:if="{{item.checked}}">
+                        <icon class="weui-icon-checkbox_circle" type="circle" size="12" wx:if="{{!item.checked}}"></icon>
+                        <icon class="weui-icon-checkbox_success" type="success" size="12" wx:if="{{item.checked}}"></icon>
+                    </view>
+                </label>
+            </checkbox-group>
+        </view>
+
+    </view>
+
+</view>

@@ -1,0 +1,44 @@
+<!--pages/button/index.wxml-->
+<view class='page'>
+
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-title'>基础按钮</view>
+            <view class='page__bd-groups'>
+                <button class='x-btn'>默认按钮</button>
+                <button class='x-btn x-btn__primary x-btn__flex' hover-class='x-btn-hover'>主操作按钮</button>
+                <button class='x-btn x-btn__danger' hover-class='x-btn-hover'>错误按钮</button>
+                <button class='x-btn x-btn__warn' hover-class='x-btn-hover'>警告按钮</button>
+            </view>
+        </view>
+        <view>
+            <view class='page__bd-title'>带边框和圆角的按钮</view>
+            <view class='page__bd-groups'>
+                <button class='x-btn x-btn__border' hover-class='x-btn-hover'>默认按钮</button>
+                <button class='x-btn x-btn__primary x-btn__border' hover-class='x-btn-hover'>主操作按钮</button>
+                <button class='x-btn x-btn__danger x-btn__border' hover-class='x-btn-hover'>错误按钮</button>
+                <button class='x-btn x-btn__warn x-btn__border' hover-class='x-btn-hover'>警告按钮</button>
+            </view>
+        </view>
+        <view>
+            <view class='page__bd-title'>镂空的按钮</view>
+            <view class='page__bd-groups'>
+                <button class='x-btn x-btn__border x-btn-empty' hover-class='x-btn-hover'>默认按钮</button>
+                <button class='x-btn x-btn__primary x-btn__border x-btn-empty' hover-class='x-btn-hover'>主操作按钮</button>
+                <button class='x-btn x-btn__danger x-btn__border x-btn-empty' hover-class='x-btn-hover'>错误按钮</button>
+                <button class='x-btn x-btn__warn x-btn__border x-btn-empty' hover-class='x-btn-hover'>警告按钮</button>
+            </view>
+        </view>
+        <view>
+            <view class='page__bd-title'>行内块级按钮</view>
+            <view class='page__bd-groups'>
+                <button class='x-btn x-btn__inline' hover-class='x-btn-hover'>默认按钮</button>
+                <button class='x-btn x-btn__border x-btn__inline' hover-class='x-btn-hover'>默认按钮</button>
+                <button class='x-btn x-btn__primary x-btn__border x-btn__inline' hover-class='x-btn-hover'>主操作按钮</button>
+                <button class='x-btn x-btn__danger x-btn__border x-btn__inline' hover-class='x-btn-hover'>错误按钮</button>
+                <button class='x-btn x-btn__warn x-btn__border x-btn__inline' hover-class='x-btn-hover'>警告按钮</button>
+            </view>
+        </view>
+    </view>
+
+</view>
