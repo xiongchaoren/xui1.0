@@ -1,0 +1,42 @@
+/* pages/tab2/index.wxss */
+.x-tab{
+  position: relative;
+}
+.x-tab__bd{
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #fff;
+}
+.x-tab__item{
+  flex: 1;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  word-break:keep-all;
+  font-size: 16px;
+  color: #333;
+  position: relative;
+  min-width: 20px;
+}
+
+.x-tab__item-selected{
+  color: #f00;
+}
+
+.x-tab__item-selected:after{
+  content: '';
+  position: absolute;
+  border-top: 2px solid red;
+  left: 6px;
+  right: 6px;
+  bottom: 0;
+  border-radius: 50px;
+}
+
+.x-tab__bd-scroll .x-tab__item{
+  padding: 0 10px;
+}

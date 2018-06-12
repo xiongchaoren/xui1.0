@@ -1,0 +1,61 @@
+<!--pages/tab2/index.wxml-->
+<view class='page'>
+
+    <view class='page__bd-title'>选项卡 tab</view>
+
+    <view class='page__bd'>
+        <view>
+            <view class='page__bd-groups'>
+
+                <view class='page__bd-title'>不可滚动</view>
+
+                <view class='x-tab'>
+                    <view class='x-tab__bd'>
+                        <block wx:for="{{tabs.items}}" wx:key="*this">
+                          <view class="x-tab__item {{tabs.activeIndex==index?'x-tab__item-selected':''}}" bindtap='toggleTab' data-index="{{index}}">
+                              <view>{{item.name}}</view>
+                          </view>
+                        </block>
+                    </view>
+
+                    <view class='x-tab-ft' hidden="{{tabs.activeIndex!=0}}">
+                        <view class=''>1111</view>
+                    </view>
+                    <view class='x-tab-ft' hidden="{{tabs.activeIndex!=1}}">
+                        <view class=''>2222</view>
+                    </view>
+                    <view class='x-tab-ft' hidden="{{tabs.activeIndex!=2}}">
+                        <view class=''>3333</view>
+                    </view>
+                    <view class='x-tab-ft' hidden="{{tabs.activeIndex!=3}}">
+                        <view class=''>4444</view>
+                    </view>
+                </view>
+
+            </view>
+        </view>
+
+        <view>
+            <view class='page__bd-groups'>
+
+                <view class='page__bd-title'>横向滚动</view>
+
+                <view class='x-tab'>
+                    <scroll-view class='x-tab__bd x-tab__bd-scroll' scroll-x>
+                        <block wx:for="{{tabs2.items}}" wx:key="*this">
+                          <view class="x-tab__item {{tabs2.activeIndex==index?'x-tab__item-selected':''}}" bindtap='toggleTab2' data-index="{{index}}">
+                              <view>{{item.name}}</view>
+                          </view>
+                        </block>
+                    </scroll-view>
+                </view>
+
+            </view>
+        </view>
+        
+    </view>
+
+</view>
+
+
+
